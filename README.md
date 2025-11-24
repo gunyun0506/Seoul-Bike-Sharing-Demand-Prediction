@@ -21,7 +21,7 @@ Advanced Regression Modeling using Pseudo-Labeling & OOF Optimization
 
 1. Advanced Feature Engineering (이동 평균 도입)
 
-단순한 시차(Lag) 피처가 데이터 누수(Data Leakage)와 오염을 유발하여 RMSE 700점대 오류를 발생시켰던 문제를 해결하기 위해 **이동 평균(Rolling Mean)**을 도입했습니다.
+단순한 시차(Lag) 피처가 데이터 누수(Data Leakage)와 오염을 유발하여 RMSE 700점대 오류를 발생시켰던 문제를 해결하기 위해 이동 평균(Rolling Mean)을 도입했습니다.
 
 shift(1): 1시간 전 날씨
 
